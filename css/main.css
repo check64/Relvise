@@ -662,7 +662,7 @@ summary {
 
 .clients-wrapp {
   padding-top: 50px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 
 .subscribe-text {
@@ -764,12 +764,27 @@ summary {
 .subscribe::after {
   z-index: 1;
   position: absolute;
-  bottom: -5px;
+  bottom: -20px;
   left: 0;
   height: 77px;
   background-color: #252b42;
   content: "";
   width: 100%;
+}
+
+.getin {
+  background-color: #fafafa;
+}
+
+.getin-container {
+  padding-top: 80px;
+  padding-bottom: 148px;
+}
+
+.getin-title-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .getin-title {
@@ -784,6 +799,10 @@ summary {
   font-size: 14px;
   line-height: 1.43;
   color: #737373;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  max-width: 470px;
+  text-align: center;
 }
 
 .getin-list-text {
@@ -808,6 +827,40 @@ summary {
   background-color: transparent;
   border: 1px solid #ff7b47;
   border-radius: 5px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.getin-list {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.getin-items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 328px;
+  padding: 50px 40px;
+  background-color: #ffffff;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.getin-items:hover, .getin-items:focus {
+  background-color: #252b42;
+  -webkit-transform: scale(1.1, 1.2);
+          transform: scale(1.1, 1.2);
+}
+
+.getin-icon {
+  margin-bottom: 15px;
+}
+
+.getin-excerpt {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .footer {

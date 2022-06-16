@@ -1,3 +1,15 @@
+.getin {
+  background-color: $background-dark;
+}
+
+.getin-container {
+  padding-top: 80px;
+  padding-bottom: 148px;
+}
+
+.getin-title-container {
+  align-items: center;
+}
 
 .getin-title {
   font-weight: 700;
@@ -10,6 +22,11 @@
   font-size: 14px;
   line-height: 1.43;
   color: $second-text-color;
+
+  margin-top: 10px;
+  margin-bottom: 80px;
+  max-width: 470px;
+  text-align: center;
 }
 
 .getin-list-text {
@@ -25,6 +42,7 @@
   line-height: 1.5;
   color: $text-color;
 }
+
 .getin-submit {
   font-weight: 600;
   font-size: 14px;
@@ -33,4 +51,32 @@
   background-color: transparent;
   border: 1px solid $primary-color;
   border-radius: 5px;
+  transition: all 0.5s linear;
+}
+
+.getin-list {
+  justify-content: center;
+}
+
+.getin-items {
+  align-items: center;
+  max-width: 328px;
+  padding: 50px 40px;
+  background-color: $light-background-color;
+  transition: all 0.5s linear;
+
+  &:hover,
+  &:focus {
+    background-color: $dark-background-color;
+    transform: scale(1.1, 1.2);
+  }
+}
+
+.getin-icon {
+  margin-bottom: 15px;
+}
+
+.getin-excerpt {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

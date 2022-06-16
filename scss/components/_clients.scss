@@ -4,7 +4,7 @@
 }
 .clients-wrapp {
   padding-top: 50px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 
 .subscribe-text {
@@ -76,7 +76,7 @@
   &::after {
     z-index: 1;
     position: absolute;
-    bottom: -5px;
+    bottom: -20px;
     left: 0;
     height: 77px;
     background-color: $dark-background-color;
