@@ -385,9 +385,25 @@ summary {
 .after-herow {
   background-color: #fafafa;
   background-color: transparent;
+  position: relative;
+}
+
+.after-herow::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(85%);
+          transform: translateY(85%);
+  background-color: #fafafa;
+  z-index: 1;
 }
 
 .after-herow-list {
+  position: relative;
+  z-index: 2;
   margin-top: -11%;
 }
 
