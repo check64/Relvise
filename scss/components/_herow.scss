@@ -1,8 +1,24 @@
+.herow {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 689px;
+}
+
+.herow-content {
+  max-width: 509px;
+}
+
+.herow-items:first-child {
+  margin-right: 10px;
+}
+
 .herow-title {
   font-weight: 800;
   font-size: 58px;
   line-height: 1.37;
   color: $text-color;
+
+  margin-bottom: 35px;
 }
 .herow-text {
   font-weight: 500;
@@ -10,6 +26,7 @@
   line-height: 1.5;
   color: $second-text-color;
   letter-spacing: 0.2px;
+  margin-bottom: 35px;
 }
 
 .herow-link {
@@ -18,6 +35,9 @@
   font-size: 14px;
   line-height: 2;
   color: $light-text-color;
+
+  background-color: $primary-color;
+  border-radius: 37px;
 }
 
 .herow-link-right {
@@ -26,4 +46,6 @@
   font-size: 14px;
   line-height: 2;
   color: $secondary-color-1;
+  border: 1px solid $secondary-color-1;
+  border-radius: 37px;
 }

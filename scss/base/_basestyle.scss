@@ -1,0 +1,23 @@
+.container {
+  width: 1046px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn {
+  display: inline-flex;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px 36px;
+}

@@ -1,8 +1,39 @@
+.after-herow {
+  background-color: $background-dark;
+  background-color: transparent;
+}
+
+.after-herow-list {
+  margin-top: -11%;
+}
+
+.after-herow-items {
+  flex-basis: calc(100% / 3);
+  padding: 35px 40px;
+  background-color: $light-background-color;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &:last-child {
+    background-color: $secondary-color-1;
+    .after-herow-title {
+      color: $light-text-color;
+    }
+    .after-herow-text {
+      color: $light-text-color;
+    }
+  }
+}
+
 .after-herow-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.33;
   color: $text-color;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .after-herow-text {

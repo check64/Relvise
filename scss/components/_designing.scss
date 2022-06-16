@@ -1,3 +1,24 @@
+.designing {
+  background-color: $background-dark;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.designing-list {
+  width: 100%;
+}
+.designing-items {
+  text-align: center;
+  width: 238px;
+  height: 209px;
+  padding: 30px 40px;
+  flex-basis: calc(100% / 4);
+  background-color: $light-background-color;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
 .designing-title {
   font-weight: 700;
   font-size: 40px;
@@ -17,7 +38,10 @@
   font-size: 40px;
   line-height: 1.42;
   color: $text-color;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
+
 .number-description {
   font-weight: 700;
   font-size: 16px;

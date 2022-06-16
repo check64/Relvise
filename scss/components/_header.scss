@@ -1,8 +1,27 @@
+.banner-wrap {
+  height: 793px;
+  background-image: url("../images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-nav {
+  margin-left: 132px;
+}
+.nav-items {
+  &:not(last-child) {
+    margin-right: 21px;
+  }
+}
+
 .logo {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.33;
   color: $text-color;
+
+  padding: 23px 0;
 }
 
 .nav-link {
