@@ -655,6 +655,16 @@ summary {
           align-items: flex-start;
 }
 
+.container {
+  position: relative;
+  z-index: 999;
+}
+
+.clients-wrapp {
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
 .subscribe-text {
   font-weight: 700;
   font-size: 24px;
@@ -665,16 +675,16 @@ summary {
 
 .subscribe-input-wrapp {
   margin-left: auto;
+  position: relative;
 }
 
 .subscribe-input {
-  max-width: 450px;
-  max-height: 58px;
+  height: 58px;
+  width: 450px;
 }
 
 .subscribe-input::-webkit-input-placeholder {
-  max-width: 450px;
-  max-height: 58px;
+  background-color: transparent;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -682,8 +692,7 @@ summary {
 }
 
 .subscribe-input:-ms-input-placeholder {
-  max-width: 450px;
-  max-height: 58px;
+  background-color: transparent;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -691,8 +700,7 @@ summary {
 }
 
 .subscribe-input::-ms-input-placeholder {
-  max-width: 450px;
-  max-height: 58px;
+  background-color: transparent;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -700,8 +708,7 @@ summary {
 }
 
 .subscribe-input::placeholder {
-  max-width: 450px;
-  max-height: 58px;
+  background-color: transparent;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -709,6 +716,11 @@ summary {
 }
 
 .subscribe-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -743,6 +755,21 @@ summary {
   max-width: 998px;
   padding: 30px 50px;
   margin-top: 70px;
+}
+
+.subscribe {
+  position: relative;
+}
+
+.subscribe::after {
+  z-index: 1;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 77px;
+  background-color: #252b42;
+  content: "";
+  width: 100%;
 }
 
 .getin-title {
