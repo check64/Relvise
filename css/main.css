@@ -655,14 +655,26 @@ summary {
           align-items: flex-start;
 }
 
-.subscribe-tex {
+.subscribe-text {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.33;
   color: #ffffff;
+  max-width: 266px;
+}
+
+.subscribe-input-wrapp {
+  margin-left: auto;
+}
+
+.subscribe-input {
+  max-width: 450px;
+  max-height: 58px;
 }
 
 .subscribe-input::-webkit-input-placeholder {
+  max-width: 450px;
+  max-height: 58px;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -670,6 +682,8 @@ summary {
 }
 
 .subscribe-input:-ms-input-placeholder {
+  max-width: 450px;
+  max-height: 58px;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -677,6 +691,8 @@ summary {
 }
 
 .subscribe-input::-ms-input-placeholder {
+  max-width: 450px;
+  max-height: 58px;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -684,6 +700,8 @@ summary {
 }
 
 .subscribe-input::placeholder {
+  max-width: 450px;
+  max-height: 58px;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -694,6 +712,7 @@ summary {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
+  height: 100%;
   background: #ff7b47;
   color: #ffffff;
   border: none;
@@ -713,6 +732,17 @@ summary {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.subscribe-container {
+  background-color: #17213c;
+}
+
+.subscribe-container {
+  margin-left: auto;
+  max-width: 998px;
+  padding: 30px 50px;
+  margin-top: 70px;
 }
 
 .getin-title {

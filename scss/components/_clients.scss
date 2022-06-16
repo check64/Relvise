@@ -1,12 +1,22 @@
-.subscribe-tex {
+.subscribe-text {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.33;
   color: $light-text-color;
+
+  max-width: 266px;
+}
+
+.subscribe-input-wrapp {
+  margin-left: auto;
 }
 
 .subscribe-input {
+  max-width: 450px;
+  max-height: 58px;
   &::placeholder {
+    max-width: 450px;
+    max-height: 58px;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
@@ -18,6 +28,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
+  height: 100%;
   background: $primary-color;
   color: $light-text-color;
   border: none;
@@ -36,11 +47,14 @@
 .clients-list {
   justify-content: space-between;
 }
-.subscribe {
+.subscribe-container {
+  background-color: $secondary-color-2;
 }
-.subscribe-text {
-}
-.subscribe-input {
+.subscribe-container {
+  margin-left: auto;
+  max-width: 998px;
+  padding: 30px 50px;
+  margin-top: 70px;
 }
 .subscribe-btn {
 }
