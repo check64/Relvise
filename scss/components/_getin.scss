@@ -1,0 +1,36 @@
+
+.getin-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.42;
+  color: $text-color;
+}
+.getin-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $second-text-color;
+}
+
+.getin-list-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $text-color;
+}
+
+.getin-excerpt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+}
+.getin-submit {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $primary-color;
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+}

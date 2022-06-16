@@ -1,0 +1,29 @@
+.herow-title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1.37;
+  color: $text-color;
+}
+.herow-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $second-text-color;
+  letter-spacing: 0.2px;
+}
+
+.herow-link {
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  color: $light-text-color;
+}
+
+.herow-link-right {
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  color: $secondary-color-1;
+}
