@@ -1,8 +1,20 @@
+.advice {
+  background-color: $background-dark;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.advice-text-wrap {
+  align-items: center;
+}
+
 .advice-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.42;
   color: $text-color;
+  text-align: center;
+  max-width: 329px;
 }
 
 .advice-text {
@@ -10,6 +22,26 @@
   font-size: 14px;
   line-height: 1.43;
   color: $second-text-color;
+  text-align: center;
+
+  max-width: 470px;
+  padding-top: 10px;
+  padding-bottom: 45px;
+}
+
+.items-text-wrap {
+  height: 203px;
+  padding: 30px;
+}
+
+.advice-items {
+  max-width: 230px;
+  flex-basis: calc(100% / 4);
+  background-color: $light-background-color;
+
+  &:not(:last-child) {
+    margin-right: 42px;
+  }
 }
 
 .advice-subtitle {

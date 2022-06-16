@@ -1,4 +1,4 @@
-.footer-list {
+.footer {
   background-color: $secondary-color-2;
 }
 .consulting-title {
@@ -36,9 +36,21 @@
   color: $light-text-color;
 }
 
+.footer-aside {
+  background-color: $background-gray;
+}
+
 .footer-aside-text {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.71;
   color: $second-text-color;
+}
+.social-items {
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+.social {
+  margin-left: auto;
 }

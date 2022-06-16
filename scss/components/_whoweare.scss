@@ -1,8 +1,20 @@
+.whoweare {
+  background-color: $light-background-color;
+  padding: 100px 0;
+}
+
+.whoweare-title-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .whoweare-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.42;
   color: $text-color;
+  max-width: 268px;
 }
 
 .whoweare-after-title {
@@ -10,19 +22,30 @@
   font-size: 14px;
   line-height: 1.43;
   color: $second-text-color;
+  text-align: center;
+  max-width: 511px;
+  padding-top: 15px;
+  padding-bottom: 100px;
 }
-
+.whoweare-sidebar {
+  padding-top: 22px;
+  margin-left: 120px;
+}
 .whoweare-sidebar-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.42;
   color: $text-color;
+  max-width: 333px;
 }
 .whoweare-sidebar-text {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
   color: $second-text-color;
+  max-width: 330px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .whoweare-sidebar-desc {
@@ -36,4 +59,11 @@
   font-size: 14px;
   line-height: 1.71;
   color: $second-text-color;
+}
+.whoweare-sidebar-icon {
+  margin-right: 20px;
+}
+.whoweare-sidebar-items {
+  height: 77px;
+  align-items: flex-start;
 }
